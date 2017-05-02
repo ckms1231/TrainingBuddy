@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_quit"
+        android:title="@string/action_quit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_set_imu_id"
+        android:orderInCategory="100"
+        android:title="@string/action_set_imu_id"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_stream_freq"
+        android:orderInCategory="100"
+        android:title="@string/action_set_stream_freq"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_gyro_range"
+        android:orderInCategory="100"
+        android:title="@string/action_set_gyro_range"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_acc_range"
+        android:orderInCategory="100"
+        android:title="@string/action_set_acc_range"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_mag_range"
+        android:orderInCategory="100"
+        android:title="@string/action_set_mag_range" />
+    <item
+        android:id="@+id/action_set_transmit_data"
+        android:orderInCategory="100"
+        android:title="@string/action_set_transmit_data"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_filter_mode"
+        android:orderInCategory="100"
+        android:title="@string/action_set_filter_mode"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_orientation_offset"
+        android:orderInCategory="100"
+        android:title="@string/action_set_orientation_offset"
+        app:showAsAction="never" />
+</menu>

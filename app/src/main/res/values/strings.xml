@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">TrainingBuddy</string>
+    <string name="service_title">LP Service</string>
+    <string name="service_text">LP Service running</string>
+    <string name="action_quit">Quit</string>
+
+    <string name="btn_discover_sensor">Discover Sensor</string>
+    <string name="btn_connect_sensor">Connect Sensor</string>
+    <string name="btn_disconnect_sensor">Disconnect Sensor</string>
+
+    <!-- Settings menu -->
+    <string name="action_set_imu_id">Set Imu ID</string>
+    <string name="action_set_stream_freq">Set Stream Frequency</string>
+    <string name="action_set_gyro_range">Set Gyro Range</string>
+    <string name="action_set_acc_range">Set Acc Range</string>
+    <string name="action_set_mag_range">Set Mag Range</string>
+    <string name="action_set_transmit_data">Set Transmit Data</string>
+    <string name="action_set_filter_mode">Set Filter Mode</string>
+    <string name="action_set_orientation_offset">Set Orientation Offset</string>
+
+    <!-- ui text-->
+    <string name="ui_sensor_status">Sensor Status: %1$s</string>
+    <string name="ui_sensor_info">
+        S/N: %1$s\n
+        Device Name: %2$s\n
+        Firmware: %3$s
+    </string>
+
+    <string name="ui_sensor_settings">
+        ImuId: %1$d\n
+        Stream Freq: %2$dHz\n
+        Gyro Range: %3$ddps\n
+        Acc Range: %4$dG\n
+        Mag Range: %5$dGauss\n
+        Filter Mode: %6$s
+    </string>
+
+    <!--
+    <string name="ui_sensor_data">
+        Timestamp: %1$.4fs\n
+        Acc: X: %2$.3f Y: %3$.3f Z: %4$.3f\n
+    </string>
+    -->
+    <string name="ui_sensor_data">
+        Timestamp: %1$.4fs\n
+        Acc: X: %2$.3f Y: %3$.3f Z: %4$.3f\n
+        Gyr: X: %5$+5.3f Y: %6$+5.3f Z: %7$+5.3f\n
+        Mag: X: %8$.3f Y: %9$.3f Z: %10$.3f\n
+        AngVel: X: %11$.3f Y: %12$.3f Z: %13$.3f\n
+        Quat: %14$.3f %15$.3f %16$.3f %17$.3f\n
+        Euler: X: %18$.3f Y: %19$.3f Z: %20$.3f\n
+        LinAcc: X: %21$.3f Y: %22$.3f Z: %23$.3f\n
+        Pressure: %24$.3fkPa\n
+        Altitude: %25$.3fm\n
+        Temperature: %26$.3fdeg\n
+        Battery: %27$.2f%% \n
+        Charging Status: %28$d
+    </string>
+
+
+</resources>

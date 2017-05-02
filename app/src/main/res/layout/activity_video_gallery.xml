@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.trainingbuddy.ProfileGalleryActivity"
+    android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="wat"
+            android:id="@+id/txtUniqueProfile"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:id="@+id/my_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageButton
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/one"
+        android:id="@+id/buttonRecord"
+        android:layout_weight="0.09"
+        android:layout_gravity="end"
+        android:layout_width="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/large_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonRecord"
+        android:layout_alignParentStart="true">
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

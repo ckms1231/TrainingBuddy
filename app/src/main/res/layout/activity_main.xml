@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.trainingbuddy.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Sensor Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_status" />
+
+    <TextView
+        android:text="Sensor Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_info" />
+
+    <TextView
+        android:text="SensorSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_settings" />
+
+    <TextView
+        android:text="Sensor Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_data" />
+
+    <Button
+        android:text="DISCOVER SENSOR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonDiscoverSensorClick"
+        android:id="@+id/btn_discover" />
+
+    <Button
+        android:text="CONNECT SENSOR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonToggleConnectSensorClick"
+        android:id="@+id/btn_connect_sensor" />
+
+
+    <Button
+        android:text="RECORD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonRecordDataClick"
+        android:id="@+id/btn_record" />
+
+    <Button
+        android:text="RESET TIMESTAMP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonSetTimestampClick"
+        android:id="@+id/btn_resetTimestamp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spn_sensorlist" />
+</LinearLayout>
+</ScrollView>
